@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 const bodyparser = require('body-parser');
 
 
-mongoose.connect('mongodb+srv://srsd:PNjE39KucfkVRPpz@cluster0.mwijz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
+
 
 mongoose.connection.on('error', err => {
     console.log("Not Connect yet with mongoDB");
